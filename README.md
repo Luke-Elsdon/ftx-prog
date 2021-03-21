@@ -3,12 +3,14 @@
 utility for [FTDI](http://www.ftdichip.com/)'s
 [FT-X series](http://www.ftdichip.com/FT-X.htm) of USB interfaces.
 
+Forked from richardeoin with changes to instructions/makefile based on issues I had installing on x64 arch.
+
 ## Installation
 
 Install some prerequisites
 
 ```
-sudo apt-get install build-essential gcc make libftdi-dev
+sudo pacman -S libftdi libusb-compat
 ```
 
 then
